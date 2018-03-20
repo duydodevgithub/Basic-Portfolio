@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+#page {
+    width: 960px;
+    margin: auto;
+}
+header {
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+    height: 70px;
+}
+
+li {
+    display: inline;
+}
+ul {
+    float: right;
+}
+
+
+#content {
+    margin: 20px 0px 20px 0px;
+    overflow: auto;
+}
+
+#page_section {
+    width: 650px;
+    background-color: white;
+    float: left;
+}
+p {
+    margin: 10px 0px 10px 0px;
+}
+#page_aside {
+    width: 270px;
+    background-color: white;
+    float: right;
+    
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    padding: 20px 0px 20px 0px;
+
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+.div_content {
+    margin: 20px 20px 20px 20px;
+}
