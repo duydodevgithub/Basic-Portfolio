@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #page {
@@ -13,13 +14,37 @@ header {
     height: 70px;
 }
 
+nav {
+    margin: 27px 20px 27px ;
+}
+
 li {
     display: inline;
+    margin: 0px 10px 0px 10px;
+    color: gray;
 }
 ul {
     float: right;
 }
-
+#logo {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+#logo_text {
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
+}
+#mypic {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0px 15px 10px 0px;;
+}
 
 #content {
     margin: 20px 0px 20px 0px;
@@ -48,11 +73,26 @@ footer {
     padding: 20px 0px 20px 0px;
 
 }
+h2 {
+    font-size: 24px;
+}
 
 h2, h3 {
     color: #4aaaa5;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .div_content {
     margin: 20px 20px 20px 20px;
+}
+
+#social {
+    text-align: center;
+}
+
+.social_icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
